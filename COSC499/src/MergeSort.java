@@ -13,17 +13,17 @@ public class MergeSort {
 		String[] stringArray = {"Steve", "Bulma", "Eelektross", "Zekrom", "Yasuo", "Callum", "Oolong", "Ezreal", "Tracer", "Ramsey"};
 		
 		// sort an integer array
-		mergeSort(intArray);
+		mergeSort(intArray, int f, int r);
 		
 		// sort a string array
-		mergeSort(stringArray);
+		mergeSort(stringArray, int f, int r);
 	}	
 	
-	public static void mergeSort(Integer[] unsortedArray) {
+	public static void mergeSort(Integer[] unsortedArray, int f, int r) {
 		System.out.println("Sorting... *beep boop*");
 	}
 	
-	public static void mergeSort(String[] unsortedArray) {
+	public static void mergeSort(String[] unsortedArray, int f, int r) {
 		System.out.println("Sorting... *boop beep*");
 	}
 }
