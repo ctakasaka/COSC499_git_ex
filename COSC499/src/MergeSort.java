@@ -52,7 +52,7 @@ public class MergeSort {
 	}
 	
 	public static void merge(String[] array, String[] left, String[] right, int leftLen, int rightLen) {
-		// holds the indeces for our merge process
+		// holds the indices for our merge process
 		int i, j, k;
 		i = j = k = 0;
 		
