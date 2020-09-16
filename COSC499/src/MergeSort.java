@@ -10,8 +10,10 @@ import java.util.Arrays;
 
 public class MergeSort {
 	public static void main(String[] args) {
+		
+		// this was pushed to master branch in the video
 		// our sample arrays which will be sorted
-		Integer[] intArray = {7, 3, 8, 1, 2, 0, 6, 5, 4, 9};
+		Integer[] intArray = {7, 3, 2, 1, 8, 0, 6, 5, 4, 9};
 		String[] stringArray = {"Steve", "Bulma", "Eelektross", "Zekrom", "Yasuo", "Callum", "Oolong", "Ezreal", "Tracer", "Ramsey"};
 		
 		// sort an integer array & print result
